@@ -31,12 +31,11 @@
 
 % Math
 \usepackage{amsmath}
-\usepackage{amssymb}
+\usepackage{amssymb} % Note: This package will interfere with fontspec if you want to use it
 
 % Typography
-\usepackage{times}
+\usepackage{mathptmx}
 \usepackage{microtype}
-\usepackage{textcomp}
 
 % Macro support
 \usepackage{xspace}
@@ -60,10 +59,10 @@
 \usepackage[style=english]{csquotes}
 
 % Biblatex Chicago (17th edition)
-\usepackage[authordate, 
-numbermonth=false, 
-eprint=false, 
-isbn=false, 
+\usepackage[authordate,
+numbermonth=false,
+eprint=false,
+isbn=false,
 doi=false,
 url=false,
 maxcitenames=3,
